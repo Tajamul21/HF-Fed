@@ -26,7 +26,7 @@ stable features from a variety of data distributions. A hierarchical hypernetwor
 for customized X-ray reconstruction. Experimental results demonstrate
 HF-Fed’s competitive performance, offering a promising solution for enhancing X-Ray imaging without the need for data sharing. This study
 significantly contributes to the evolving body of literature on the potential advantages of federated learning in the healthcare sector. It offers
-valuable insights for policymakers and healthcare providers holistically
+valuable insights for policymakers and healthcare providers holistically. 
 
 
 
