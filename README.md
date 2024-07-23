@@ -1,8 +1,7 @@
 <div align="center">
 
 <!-- TITLE -->
-# **HF-Fed: Hierarchical based customized Federated**
-Learning Framework for X-Ray Imaging**
+# **HF-Fed: Hierarchical based customized Federated Learning Framework for X-Ray Imaging**
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv:2303.16203-b31b1b.svg)](https://arxiv.org/abs/2303.16203)
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](http://diffusion-classifier.github.io)
