@@ -1,17 +1,33 @@
 <div align="center">
 
 <!-- TITLE -->
-# **Your Diffusion Model is Secretly a Zero-Shot Classifier**
+# **HF-Fed: Hierarchical based customized Federated
+Learning Framework for X-Ray Imaging**
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv:2303.16203-b31b1b.svg)](https://arxiv.org/abs/2303.16203)
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](http://diffusion-classifier.github.io)
 </div>
 
-This is the official implementation of the ICCV 2023 paper [Your Diffusion Model is Secretly a Zero-Shot Classifier](https://arxiv.org/abs/2303.16203) by Alexander Li, Mihir Prabhudesai, Shivam Duggal, Ellis Brown, and Deepak Pathak.
+This is the official implementation of the MICCAI 2024 workshop paper [HF-Fed: Hierarchical based customized Federated
+Learning Framework for X-Ray Imaging](https://arxiv.org/abs/2303.16203) by Tajamul Ashraf and Tisha Madame.
 <!-- DESCRIPTION -->
 ## Abstract
 
-The recent wave of large-scale text-to-image diffusion models has dramatically increased our text-based image generation abilities. These models can generate realistic images for a staggering variety of prompts and exhibit impressive compositional generalization abilities. Almost all use cases thus far have solely focused on sampling; however, diffusion models can also provide conditional density estimates, which are useful for tasks beyond image generation. In this paper, we show that the density estimates from large-scale text-to-image diffusion models like Stable Diffusion can be leveraged to perform zero-shot classification without any additional training. Our generative approach to classification, which we call **Diffusion Classifier**, attains strong results on a variety of benchmarks and outperforms alternative methods of extracting knowledge from diffusion models. Although a gap remains between generative and discriminative approaches on zero-shot recognition tasks, our diffusion-based approach has significantly stronger multimodal compositional reasoning ability than competing discriminative approaches. Finally, we use Diffusion Classifier to extract standard classifiers from class-conditional diffusion models trained on ImageNet. Our models achieve strong classification performance using only weak augmentations and exhibit qualitatively better "effective robustness" to distribution shift. Overall, our results are a step toward using generative over discriminative models for downstream tasks.
+In clinical applications, X-Ray technology plays a crucial
+role in noninvasive examinations like mammography, providing essential anatomical information about patients. However, the inherent radiation risk associated with X-Ray procedures raises significant concerns. X-Ray reconstruction is crucial in medical imaging for creating detailed visual representations of internal structures, and facilitating diagnosis
+and treatment without invasive procedures. Recent advancements in deep
+learning (DL) have shown promise in X-Ray reconstruction. Nevertheless,
+conventional DL methods often necessitate the centralized aggregation of
+substantial large datasets for training, following specific scanning protocols. This requirement results in notable domain shifts and privacy issues.
+To address these challenges, we introduce the Hierarchical Frameworkbased Federated Learning method (HF-Fed) for customized X-Ray Imaging. HF-Fed addresses the challenges in X-Ray imaging optimization by decomposing the problem into two components: local data adaptation
+and holistic X-Ray Imaging. It employs a hospital-specific hierarchical
+framework and a shared common imaging network called Network of
+Networks (NoN) for these tasks. The emphasis of the NoN is on acquiring
+stable features from a variety of data distributions. A hierarchical hypernetwork extracts domain-specific hyperparameters, conditioning the NoN
+for customized X-Ray reconstruction. Experimental results demonstrate
+HF-Fed’s competitive performance, offering a promising solution for enhancing X-Ray imaging without the need for data sharing. This study
+significantly contributes to the evolving body of literature on the potential advantages of federated learning in the healthcare sector. It offers
+valuable insights for policymakers and healthcare providers holistically
 
 ## Installation
 Create a conda environment with the following command:
