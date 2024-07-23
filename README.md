@@ -32,13 +32,13 @@ valuable insights for policymakers and healthcare providers holistically
 
 #### Requirements
 
-Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If you wanna try our method, please first install necessary packages as follows:
+Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If you wanna try our method, please first install the necessary packages as follows:
 
 ```
 pip install requirements.txt
 ```
 
-Our implementation is based on [CTLib](https://github.com/xiawj-hub/CTLIB) in simulating data and training IR-based methods. If you have an interest in data simulation and IR-based networks, we recommend installing it. Furthermore, HyperFed can be easily integrated into transformer-based methods with minor modifications.
+Our implementation is based on [CTLib](https://github.com/xiawj-hub/CTLIB) in simulating data and training IR-based methods. If you are interested in data simulation and IR-based networks, we recommend installing it. Furthermore, HF-Fed can be easily integrated into transformer-based methods with minor modifications.
 
 #### Acknowledgments
 Special thanks to Prof. Aditeshwar Seth for his support and guidance!
