@@ -12,20 +12,20 @@ Learning Framework for X-Ray Imaging](https://arxiv.org/abs/2303.16203) by Tajam
 <!-- DESCRIPTION -->
 ## Abstract
 
-In clinical applications, X-Ray technology plays a crucial
+In clinical applications, X-ray technology plays a crucial
 role in noninvasive examinations like mammography, providing essential anatomical information about patients. However, the inherent radiation risk associated with X-Ray procedures raises significant concerns. X-Ray reconstruction is crucial in medical imaging for creating detailed visual representations of internal structures, and facilitating diagnosis
 and treatment without invasive procedures. Recent advancements in deep
-learning (DL) have shown promise in X-Ray reconstruction. Nevertheless,
+learning (DL) have shown promise in X-ray reconstruction. Nevertheless,
 conventional DL methods often necessitate the centralized aggregation of
-substantial large datasets for training, following specific scanning protocols. This requirement results in notable domain shifts and privacy issues.
-To address these challenges, we introduce the Hierarchical Frameworkbased Federated Learning method (HF-Fed) for customized X-Ray Imaging. HF-Fed addresses the challenges in X-Ray imaging optimization by decomposing the problem into two components: local data adaptation
-and holistic X-Ray Imaging. It employs a hospital-specific hierarchical
-framework and a shared common imaging network called Network of
+substantial large datasets for training, following specific scanning protocols. This requirement results in notable domain shifts and privacy issues.
+To address these challenges, we introduce the Hierarchical Framework-based Federated Learning method (HF-Fed) for customized X-Ray Imaging. HF-Fed addresses the challenges in X-ray imaging optimization by decomposing the problem into two components: local data adaptation
+and holistic X-ray imaging. It employs a hospital-specific hierarchical
+framework and a shared common imaging network called the Network of
 Networks (NoN) for these tasks. The emphasis of the NoN is on acquiring
-stable features from a variety of data distributions. A hierarchical hypernetwork extracts domain-specific hyperparameters, conditioning the NoN
-for customized X-Ray reconstruction. Experimental results demonstrate
+stable features from a variety of data distributions. A hierarchical hypernetwork extracts domain-specific hyperparameters, conditioning the NoN
+for customized X-ray reconstruction. Experimental results demonstrate
 HF-Fed’s competitive performance, offering a promising solution for enhancing X-Ray imaging without the need for data sharing. This study
-significantly contributes to the evolving body of literature on the potential advantages of federated learning in the healthcare sector. It offers
+significantly contributes to the evolving body of literature on the potential advantages of federated learning in the healthcare sector. It offers
 valuable insights for policymakers and healthcare providers holistically
 
 
