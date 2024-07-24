@@ -76,7 +76,8 @@ Our implementation is based on [CTLib](https://github.com/xiawj-hub/CTLIB) in si
 Special thanks to Prof. Aditeshwar Seth for his support and guidance!
 
 #### Contact
-If you have any questions or suggestions about our work, please get in touch with me. My email is tajamul21.ashraf@gmail.com.
+If you have any questions or suggestions about our work, please get in touch with me [Email](mailto:tajamul21.ashraf@gmail.com).
+
 
 
 ## Citation
