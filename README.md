@@ -28,6 +28,29 @@ HF-Fed’s competitive performance, offering a promising solution for enhancing
 significantly contributes to the evolving body of literature on the potential advantages of federated learning in the healthcare sector. It offers
 valuable insights for policymakers and healthcare providers holistically. 
 
+## Dataset 
+
+The dataset includes the following files and directories:
+
+- `314.72 GB/`: Directory containing all dataset files
+- `test_images/`: Directory containing test images
+- `train_images/`: Directory containing train images
+- `sample_submission.csv`: Sample submission file
+- `test.csv`: CSV file with test data
+- `train.csv`: CSV file with training data
+
+## Getting Started
+
+1. **Clone the Repository**:
+    ```sh
+    git clone <your-repo-url>
+    cd <your-repo-directory>
+    ```
+
+2. **Download the Dataset**:
+    - Visit the [Kaggle competition page](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/)
+    - Download the dataset files
+    - Extract the dataset files into the appropriate directories
 
 
 #### Requirements
