@@ -52,8 +52,8 @@ RSNA-Breast-Cancer-Detection-Dataset/
 
 1. **Clone the Repository**:
     ```sh
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone [<your-repo-url>](https://github.com/Tajamul21/HF-Fed.git)
+    cd HF-Fed
     ```
 
 2. **Download the Dataset**:
