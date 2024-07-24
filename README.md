@@ -32,12 +32,21 @@ valuable insights for policymakers and healthcare providers holistically.
 
 The dataset includes the following files and directories:
 
-- `314.72 GB/`: Directory containing all dataset files
-- `test_images/`: Directory containing test images
-- `train_images/`: Directory containing train images
-- `sample_submission.csv`: Sample submission file
-- `test.csv`: CSV file with test data
-- `train.csv`: CSV file with training data
+```plaintext
+RSNA-Breast-Cancer-Detection-Dataset/
+├── test_images/
+│   ├── image_001.dcm
+│   ├── image_002.dcm
+│   └── ...
+├── train_images/
+│   ├── image_001.dcm
+│   ├── image_002.dcm
+│   └── ...
+├── sample_submission.csv
+├── test.csv
+└── train.csv
+
+```
 
 ## Getting Started
 
